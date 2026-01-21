@@ -298,9 +298,7 @@ footer{
         font-weight: 700;
         color: rgba(255, 255, 255, 1);
     }
-    nav {
-        display: none;    
-        }
+ 
 /* hero section */
     .mic{
         height: 100px;
