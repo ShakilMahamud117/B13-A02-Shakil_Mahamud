@@ -413,3 +413,8 @@ footer{
         gap: 5px;
     }
 }
+@media screen and (min-width: 577px) {
+    .hamburger{
+        display: none;
+    }
+}
