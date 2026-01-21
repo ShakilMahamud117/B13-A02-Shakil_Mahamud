@@ -288,10 +288,10 @@ footer{
 /* ..............Responsive............ */
 
 @media screen and (max-width: 576px){
-    .none{
+    /* nav bar  */
+    .menu, .nav-btn{
         display: none;
     }
-
 /* shared styles */
     .sec-subtitle{
         font-size: 32px;
@@ -359,6 +359,10 @@ footer{
     }
     .host{
         padding: 10px;
+    }
+    .link {
+        justify-content: center;
+        align-items: center;
     }
 /* footer section  */
     .media{
