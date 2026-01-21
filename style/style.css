@@ -101,15 +101,16 @@ nav img{
     position: absolute;
     right: 120px;
     top: 70px;
+    z-index: 10;
 }
-.mic {
-    animation-duration: 10s;
+.circle {
+    animation-duration: 3s;
     /* transform: rotate(180deg); */
-    animation-name: mic;
-    transition: transform 10s ease;
+    animation-name: circle;
+    transition: transform 5s ease;
     animation-iteration-count: infinite;
 }
-@keyframes mic {
+@keyframes circle {
     0%{
         transform: rotate(0deg);
     }
