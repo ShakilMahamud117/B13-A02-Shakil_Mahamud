@@ -102,6 +102,21 @@ nav img{
     right: 120px;
     top: 70px;
 }
+.mic {
+    animation-duration: 10s;
+    /* transform: rotate(180deg); */
+    animation-name: mic;
+    transition: transform 10s ease;
+    animation-iteration-count: infinite;
+}
+@keyframes mic {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 
 /* .hero img{
     border: 8px solid rgba(42, 24, 108, 1);
@@ -285,6 +300,7 @@ footer{
 
 
 
+
 /* ..............Responsive............ */
 
 @media screen and (max-width: 576px){
@@ -306,6 +322,9 @@ footer{
     }
  
 /* hero section */
+    .hero{
+        padding-top: 100px;
+    }
     .mic{
         height: 100px;
         width: 100px;
@@ -336,7 +355,7 @@ footer{
     }
 /* why choose section */
     .why-choose{
-        padding: 10px 10px;
+        padding: 10px 20px;
         height: 100%;
     }
     .choose-card{
@@ -351,6 +370,9 @@ footer{
     .featured{
         padding: 10px;
     }
+    .featured-sec{
+        padding: 20px;
+    }
     .card-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -362,9 +384,14 @@ footer{
     .host-container{
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
     .host{
-        padding: 10px;
+        padding: 20px;
+    }
+    .host-img{
+        height: 200px;
+        width: 200px;
     }
     .link {
         justify-content: center;
@@ -378,6 +405,7 @@ footer{
         align-items: center;
         gap: 5px;
         margin: 10px 0px;
+        padding: 20px 0px;
     }
     footer{
         height: 100%;
