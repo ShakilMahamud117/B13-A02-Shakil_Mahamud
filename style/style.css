@@ -376,6 +376,8 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         align-items: center;
+        gap: 5px;
+        margin: 10px 0px;
     }
     footer{
         height: 100%;
