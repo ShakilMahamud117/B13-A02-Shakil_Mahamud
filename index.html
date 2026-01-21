@@ -9,34 +9,37 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <nav>
+<!-- Navbar  -->
+    <nav class="container">
         <img src="assets/Logo.png" alt="">
         <div class="menu">
             <a href="">About</a>
             <a href="">Episodes</a>
             <a href="">Host</a>
         </div>
-        <button class="btn-primary"> <i class="fa-solid fa-arrow-right"></i></button>
+        <div class="nav-btn">
+            <button class="btn-primary">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
     </nav>
 <!-- Hero Section  -->
-     <!-- <section class="hero">
+     <section class="hero container">
         <div class="images">
             <img src="./assets/microphone.png" alt="" class="mic"> 
             <img src="./assets/hero-circle.png" alt="" class="circle">
             <span class="new">NEW</span>
         </div>
         <h2 class="sec-title">TechWave</h2>
-        <p class="sec-des">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+        <p class="sec-des text-center">Your daily dose of tech insights, productivity hacks, and personal growth</p>
         <div class="hero-btn">
             <button class="btn-primary"><i class="fa-brands fa-spotify"></i>Listen on Spotify</button>
             <button class="btn-2"><i class="fa-regular fa-envelope"></i> Subscribe</button>
         </div>
-     </section> -->
+     </section>
 
 <!-- About Section  -->
-     <section class="about">
+     <section class="about container">
         <h3 class="sec-subtitle">About the Podcast</h3>
-        <p class="sec-des">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br> We break down complex topics into digestible insights, explore productivity strategies that actually work, <br> and share stories of personal growth from industry leaders.</p>
+        <p class="sec-des">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.</p>
         <p class="sec-des">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
         <div class="experience flex gap-20">
             <div>
@@ -58,15 +61,49 @@
         </div>
      </section>
 
+<!-- Why Choose Section -->
+ <section class="why-choose container">
+    <h2 class="text-center sec-subtitle">Why Choose TechWave</h2>
+    <div class="choose-card">
+        <div class="audio box-shadow1">
+            <img src="./assets/headphone.png" alt="">
+            <h4>Premium Audio Quality</h4>
+            <p class="sec-des">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+        </div>
+        <div class="mobile-friendly box-shadow1">
+            <img src="./assets/device.png" alt="">
+            <h4>Mobile Friendly</h4>
+            <p class="sec-des">Listen on the go with seamless mobile experience and offline downloads.</p>
+        </div>
+
+        <div class="global-community box-shadow1">
+            <img src="./assets/location.png" alt="">
+            <h4>Global Community</h4>
+            <p class="sec-des">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+        </div>
+        <div class="exclusive-interviews box-shadow1">
+            <img src="./assets/zap-fast.png" alt="">
+            <h4>Exclusive Interviews</h4>
+            <p class="sec-des">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+        </div>
+        <div class="resources box-shadow1">
+            <img src="./assets/resource.png" alt="">
+            <h4>Rich Resources</h4>
+            <p class="sec-des">Access show notes, transcripts, and additional learning materials for every episode.</p>
+        </div>
+    </div>
+ </section>
+
 
 <!-- Featured Episodes Section -->
-     <section class=" featured-sec">
+     <section class=" featured-sec container">
         <div class="featured">
             <p class="sec-subtitle">Featured Episodes</p>
             <div class="card-container ">
                 <div class="card">
                     <div class="video">
-                        <iframe width="380" height="214" src="https://www.youtube-nocookie.com/embed/uKM3hEbLEOg?si=ImkUM1psUuhKQFw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/KKNCiRWd_j0?si=ZSQBi9jXpnjfsz-1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                     <div class="card-des">
                         <h4 class="sec-des-head">The Future of AI in Everyday Life</h4>
                         <p class="sec-des">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
@@ -75,7 +112,7 @@
                 </div>
                 <div class="card">
                     <div>
-                        <iframe width="380" height="214" src="https://www.youtube-nocookie.com/embed/uKM3hEbLEOg?si=ImkUM1psUuhKQFw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/9E2SdLD3Kpc?si=CEy02r7exh4CUztz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <div class="card-des">
                         <h4 class="sec-des-head">Building Better Habits for Remote Work</h4>
@@ -85,7 +122,7 @@
                 </div>
                 <div class="card">
                     <div>
-                        <iframe width="380" height="214" src="https://www.youtube-nocookie.com/embed/uKM3hEbLEOg?si=ImkUM1psUuhKQFw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/TLzxm8_I1jg?si=wq5EByHFUkBBQ_X5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <div class="card-des">
                         <h4 class="sec-des-head">Career Growth in Tech: A Roadmap</h4>
@@ -99,7 +136,7 @@
         <!-- Meet the Host  -->
          <div class="host">
             <h3 class="sec-subtitle text-center">Meet the Host</h3>
-            <div class="flex gap-10">
+            <div class="host-container flex gap-10">
                 <img src="./assets/host.png" alt="">
                 <div class="flex gap-5 flex-col">
                     <h4 class="host-name">Alex Kumar</h4>
@@ -116,7 +153,7 @@
      </section>
 
 <!-- footer section  -->
- <footer>
+ <footer class="container">
     <img src="./assets/Logo.png" alt="">
     <div class="media text-white">
         <p><i class="fa-brands fa-spotify"></i> Spotify</p>
