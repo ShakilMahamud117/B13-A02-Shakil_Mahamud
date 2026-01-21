@@ -289,8 +289,14 @@ footer{
 
 @media screen and (max-width: 576px){
     /* nav bar  */
+    nav{
+        padding: 16px 20px;
+    }
     .menu, .nav-btn{
         display: none;
+    }
+    .hamburger{
+        width: 30px;
     }
 /* shared styles */
     .sec-subtitle{
